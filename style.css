@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+#searchInput {
+    border-radius: 8px 0 0 8px;
+}
+
+#searchButton {
+    border-radius: 0 8px 8px 0;
+}
+
+.list-group-item {
+    background-color: #f9f9f9;
+    border: none;
+    border-left: 4px solid #0d6efd;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+#wordTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+#partsofspeech {
+    font-size: 1.1rem;
+    color: #495057;
+}

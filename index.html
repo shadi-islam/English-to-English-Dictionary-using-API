@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Dictionary</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <div class="card shadow p-4">
+            <h1 class="text-center mb-4">📖 Mini Dictionary</h1>
+
+            <div class="input-group mb-3">
+                <input type="text" id="searchInput" class="form-control" placeholder="Enter a word...">
+                <button id="searchButton" class="btn btn-primary">
+                    <i class="bi bi-search"></i> Search
+                </button>
+            </div>
+
+            <div id="result" class="mt-4 d-none">
+                <h3 id="wordTitle" class="text-capitalize"></h3>
+                <p class="text-muted">Part of Speech: <span id="partsofspeech" class="fw-bold"></span></p>
+                <h5>Definitions</h5>
+                <ul id="def" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
